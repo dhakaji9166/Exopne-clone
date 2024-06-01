@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'TWK_Lausanne';
+    src: url('./fonts/TWKLausanne-Regular.woff2') format('woff2'),
+         url('./fonts/TWKLausanne-Regular.woff') format('woff'),
+         url('./fonts/TWKLausanne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TWK_Lausanne';
+    src: url('./fonts/TWKLausanne-Bold.woff2') format('woff2'),
+         url('./fonts/TWKLausanne-Bold.woff') format('woff'),
+         url('./fonts/TWKLausanne-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    @apply font-times;
+  }
